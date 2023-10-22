@@ -15,6 +15,11 @@ footer {
     background-color: #1F2937;
 }
 
+button,
+.calltoaction_text {
+    background-color: #3882F6;
+}
+
 header .container {
     height: 530px;
 }
@@ -138,30 +143,72 @@ header h1 {
 }
 
 .quote {
+    display: flex;
     width: 100vw;
-    height: 430px;
-}
-
-
-
-.calltoaction {
-    width: 100vw;
-    height: 350px;
-}
-
-button,
-.calltoaction_text {
-    background-color: #3882F6;
-}
-
-.quote {
     background-color: #E5E7EB;
+}
+
+.quote_description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 430px;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: lighter;
     color: #1F2937;
+    width: 70%;
+    font-style: italic;
+}
+
+.quote_author {
+    width: 80%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: end;
+}
+
+.calltoaction {
+    width: 100vw;
+}
+
+.calltoaction_description {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.calltoaction_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.calltoaction_text h3 {
+    font-size: 23px;
+}
+
+.calltoaction_text p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.calltoaction_button {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 25px;
 }
 
 footer {
