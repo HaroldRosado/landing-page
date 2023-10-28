@@ -101,7 +101,7 @@ header h1 {
 }
 
 .information {
-    width: 100vw;
+    width: 100%;
 }
 
 .information_description {
@@ -144,7 +144,7 @@ header h1 {
 
 .quote {
     display: flex;
-    width: 100vw;
+    width: 100%;
     background-color: #E5E7EB;
 }
 
@@ -172,7 +172,7 @@ header h1 {
 }
 
 .calltoaction {
-    width: 100vw;
+    width: 100%;
 }
 
 .calltoaction_description {
